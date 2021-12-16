@@ -28,48 +28,35 @@
     grid-template-columns: repeat(9, 1fr);
     grid-auto-rows: minmax(100px, auto);
     grid-template-areas:
-        "hd hd hd hd   hd   hd   hd   hd   cb"
+        "hd hd hd hd   hd   hd   hd   hd   hd"
         "sd sd sd main main main main main main"
         "ft ft ft ft   ft   ft   ft   ft   ft";
 
 }
 
-@media all and (max-width:767px){
+@media all and (max-width:640px){
     .wrapper {
         display: grid;
         grid-template-columns: repeat(9, 1fr);
         grid-auto-rows: minmax(100px, auto);
         grid-template-areas:
-                "hd  hd  hd  hd   hd   hd   hd   hd cb"
+                "hd  hd  hd  hd   hd   hd   hd   hd hd"
                 "sd  sd  sd  sd   sd   sd   sd   sd sd"
                 "main main main main main main main main main"
                 "ft ft ft ft   ft   ft   ft   ft ft";
     }
 }
-@media all and (min-width:768px) and (max-width:1024px){
+@media all and (min-width:641px) and (max-width:1024px){
     .wrapper {
         display: grid;
         grid-template-columns: repeat(9, 1fr);
         grid-auto-rows: minmax(100px, auto);
         grid-template-areas:
-                "hd hd hd hd   hd   hd   hd   hd cb"
+                "hd hd hd hd   hd   hd   hd   hd hd"
                 " sd sd sd sd sd main main main main"
                 "ft ft ft ft   ft   ft   ft   ft ft";
     }
 }
-
-@media all and (min-width:1025px){
-    .wrapper {
-        display: grid;
-        grid-template-columns: repeat(9, 1fr);
-        grid-auto-rows: minmax(100px, auto);
-        grid-template-areas:
-                "hd hd hd hd   hd   hd   hd   hd cb"
-                "sd sd sd main main main main main main"
-                "ft ft ft ft   ft   ft   ft   ft ft";
-    }
-}
-
 
 .profile{
     width: 200px;
