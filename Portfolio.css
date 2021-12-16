@@ -33,10 +33,22 @@
         "ft ft ft ft   ft   ft   ft   ft   ft";
 
 }
+
+
 .profile{
     width: 200px;
     border-radius: 70%;
 }
+
+@keyframes spin {
+    0%{ transform: rotate( 0deg);}
+    100%{ transform: rotate( 360deg);}
+}
+
+.profile:hover{
+    animation: spin 1s ;
+}
+
 .menu{
     position: sticky;
     top:0px;
