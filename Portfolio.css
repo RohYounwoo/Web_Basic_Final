@@ -2,20 +2,24 @@
     grid-area: hd;
     background-color: #262525;
     color: white;
+    padding: 20px;
 }
 .footer {
     grid-area: ft;
     background-color: #262525;
     color: white;
     text-align: center;
+    padding: 20px;
 }
 .content {
     grid-area: main;
     background-color: #79D0CC;
+    padding: 20px;
 }
 .sidebar {
     grid-area: sd;
     background-color: #20B2AA;
+    padding: 20px;
 }
 .cuber {
     grid-area: cb;
@@ -149,10 +153,15 @@ h1{
 
 h2{
     font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 
 h3{
     font-size: 1.5em;
+    margin-bottom: 13px;
 }
 
 .svgWrapper {
